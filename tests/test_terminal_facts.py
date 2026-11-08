@@ -55,8 +55,8 @@ def test_os_rows():
 
 
 def test_unknown_facts_and_terminals():
-    assert identify("iTerm2 3.7.7").get("kitty.shm") is None
-    assert identify("iTerm2 3.7.7").get("kitty.shm", "probe") == "probe"
+    assert identify("iTerm2 3.7.7").get("kitty.storage_bytes") is None
+    assert identify("iTerm2 3.7.7").get("kitty.storage_bytes", "probe") == "probe"
     assert identify("foot(1.18.0)") is None
     assert identify(environ={"TERM": "xterm-256color"}) is None
     with pytest.raises(KeyError):
