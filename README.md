@@ -30,9 +30,9 @@ A fact that isn't listed is unknown: probe the terminal, or use your own default
 |---|---|---|---|---|---|---|---|
 | `kitty.placeholders` | yes | yes | yes | yes | **no** | **no** | yes |
 | `kitty.frame_edit` | yes | yes | **no** | yes | **no** | **no** | **no** |
-| `kitty.frame_edit_reply` | ? | ? | ? | **no** | ? | ? | ? |
+| `kitty.frame_edit_reply` | yes | ? | ? | **no** | ? | ? | ? |
 | `kitty.animation` | yes | yes | **no** | yes | **no** | **no** | **no** |
-| `kitty.shm` | yes | yes | yes | **no** | ? | **no** | ? |
+| `kitty.shm` | yes | yes | yes | **no** | ? | **no** | yes |
 | `kitty.max_escape_bytes` | 256 KiB | 65 MiB | 65 MiB | ? | ? | ? | ? |
 | `kitty.storage_bytes` | 320 MiB | 320 MB | 320 MB | 10 MB | ? | ? | ? |
 | `kitty.fastest_format` | `zlib` | `zlib` | `zlib` | `zlib` | `zlib` | `zlib` | `png` |
