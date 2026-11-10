@@ -22,6 +22,7 @@ match.term = ["xterm-kitty"]
 kitty.placeholders = true
 kitty.frame_edit = true
 kitty.frame_edit_reply = true
+kitty.frame_edit_zlib = true
 kitty.animation = true
 kitty.shm = true
 kitty.max_escape_bytes = 262144
@@ -32,6 +33,7 @@ kitty.fastest_format = "zlib"
 "kitty.placeholders" = "eye 2026-11-07, Kitty 0.50.0 (pixcell)"
 "kitty.frame_edit" = "eye 2026-11-07, Kitty 0.50 (pixcell); soak 2026-10-24, 0.49.2 (sdl-kitty)"
 "kitty.frame_edit_reply" = "probe 2026-11-08, 0.50.0: a=f answers Gi=...;OK (sdl-kitty)"
+"kitty.frame_edit_zlib" = "eye 2026-11-10, 0.50.0 on macOS: o=z a=f in 1 and 10 chunks, and one over another, draw as raw a=f does, no errors (sdl-kitty scripts/check_af_zlib.py)"
 "kitty.animation" = "eye 2026-11-07, Kitty 0.50 (pixcell)"
 "kitty.shm" = "graphics.c: t=s first-class; soak 2026-10-24 (sdl-kitty)"
 "kitty.max_escape_bytes" = "vt-parser.c MAX_ESCAPE_CODE_LENGTH = 262144; longer escape codes are ignored (sdl-kitty)"
