@@ -30,6 +30,7 @@ FACTS: dict[str, Any] = {
     "kitty.placeholders": bool,
     "kitty.frame_edit": bool,
     "kitty.frame_edit_reply": bool,
+    "kitty.frame_edit_zlib": bool,
     "kitty.animation": bool,
     "kitty.shm": bool,
     "kitty.max_escape_bytes": int,
