@@ -136,6 +136,7 @@ wins where two set the same fact.
 | `kitty.placeholders` | bool | Draws Kitty Unicode placeholders (`U=1` virtual placements, U+10EEEE cells). |
 | `kitty.frame_edit` | bool | An in-place frame edit (`a=f` with `r=`) shows on screen. |
 | `kitty.frame_edit_reply` | bool | Answers an `a=f` sent without `q=2`. `false`: silence isn't failure. |
+| `kitty.frame_edit_zlib` | bool | An in-place frame edit compressed with `o=z` shows on screen as the raw edit would. |
 | `kitty.animation` | bool | Plays Kitty animations itself (`a=f` frames, `a=a` to run). |
 | `kitty.shm` | bool | Shared-memory transmission (`t=s`) works. |
 | `kitty.max_escape_bytes` | int | Longest escape code it accepts; longer ones are dropped (and their payload may show as text). |
