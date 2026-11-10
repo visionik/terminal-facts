@@ -86,6 +86,7 @@ match.term_program = ["rex"]
 kitty.placeholders = true
 kitty.frame_edit = true
 kitty.frame_edit_reply = false
+kitty.frame_edit_zlib = true
 kitty.animation = true
 kitty.shm = false
 kitty.storage_bytes = 10000000
@@ -96,6 +97,7 @@ window.ioctl_pixels = false
 "kitty.placeholders" = "eye 2026-11-07 (pixcell)"
 "kitty.frame_edit" = "eye 2026-11-07 (pixcell); soak 2026-10-23 (sdl-kitty)"
 "kitty.frame_edit_reply" = "a=f probe often gets no reply, yet the edit shows (sdl-kitty silent_af_ok)"
+"kitty.frame_edit_zlib" = "eye 2026-11-10, server 956d740, Rex Beta 0.1.0 (1853) on macOS: o=z a=f in 1 and 10 chunks, and one over another, draw as raw a=f does (sdl-kitty scripts/check_af_zlib.py)"
 "kitty.animation" = "eye 2026-11-07 (pixcell)"
 "kitty.shm" = "a=q with t=s often silent or failing; a forced t=s a=T does present (sdl-kitty soak 2026-10-23)"
 "kitty.storage_bytes" = "libghostty Screen.zig kitty_image_storage_limit = 10 MB (sdl-kitty note; decimal MB not rechecked)"

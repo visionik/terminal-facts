@@ -31,7 +31,7 @@ A fact that isn't listed is unknown: probe the terminal, or use your own default
 | `kitty.placeholders` | yes | yes | yes | yes | **no** | **no** | yes |
 | `kitty.frame_edit` | yes | yes | **no** | yes | **no** | **no** | **no** |
 | `kitty.frame_edit_reply` | yes | ? | ? | **no** | ? | ? | ? |
-| `kitty.frame_edit_zlib` | ? | ? | ? | ? | ? | ? | ? |
+| `kitty.frame_edit_zlib` | ? | ? | ? | yes | ? | ? | ? |
 | `kitty.animation` | yes | yes | **no** | yes | **no** | **no** | **no** |
 | `kitty.shm` | yes | yes | yes | **no** | ? | **no** | yes |
 | `kitty.max_escape_bytes` | 256 KiB | 65 MiB | 65 MiB | ? | ? | ? | ? |
